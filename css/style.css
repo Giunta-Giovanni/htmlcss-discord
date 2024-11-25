@@ -11,27 +11,38 @@ body{
 }
 header{
     /* debug */
-    background-color: #3160e0; 
+    background-color: #255ee9; 
 }
 button{
     all: unset;
 }
 .bg-white{
     background-color: white;
+    color: rgb(0, 0, 0);
+
 }
 .bg-black{
-    background-color: black;
+    background-color: #23272a;
+    color: white;
 }
 .bg-lightblue{
     background-color: #8da1de;
 }
-
+.bg-grey{
+    background-color: #f6f6f6;
+}
+.button {
+    font-size: 14px;
+    padding:10px 12px ;
+    border-radius: 20px;
+}
 
 /* header */
 .container-header{
     display: flex;
     justify-content: center;
     padding: 10px;
+    padding-top: 20px;
     margin: 0 auto;
     width: 80%;
 }
@@ -50,7 +61,6 @@ button{
 /* logo section*/
 #logo-section{
     width: 20%;
-    /* background-image:url(../img/logo.svg); */
 }
 
 #logo{
@@ -83,12 +93,6 @@ ul > li > a {
     width: 20%;
 }
 
-.button {
-    font-size: 14px;
-    padding:10px 12px ;
-    border-radius: 20px;
-}
-
 
 
 /* main */
@@ -96,14 +100,15 @@ ul > li > a {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 30px 10px;
+    padding: 50px 10px;
 }
 
 /* jumbo */
 #section-jumbo{
     padding:20px top;
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
+    min-height: 500px;
     
     /* debug */
     /* background-color: #00018b;
@@ -112,10 +117,36 @@ ul > li > a {
 
 #jumbo{
     width: 60%;
+    max-width: 750px;
+    margin-top: 20px;
 
     /* debug */
-    background-color: #ef82ed;
-    height: 250px;
+    /* background-color: #ef82ed; */
+    /* height: 250px; */
+}
+
+.jumbo-item{
+    padding: 5px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 10px;
+    color: white;
+
+}
+
+#jumbo h1{
+    font-size: 40px;
+    margin: 20px;
+  
+}
+#jumbo p{
+    font-size: 20px;
+}
+#jumbo button{
+    margin: 0 10px;
+}
+.fa-arrow-down{
+    padding-right: 8px;
 }
 
 .grey{
