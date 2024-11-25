@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+header{
+    /* debug */
+    background-color: #add8e7; 
+}
+
+/* header */
+.container-header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.item-header{
+    padding: 5px;
+
+    /* debug */
+    background-color: #daa51c;
+    border: 1px dashed black;
+    height: 30px;
+}
+
+/* logo section*/
+#logo-section{
+    width: 20%;
+}
+
+/* navigation section */
+#nav-section{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+/* login section */
+#login-section{
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+
+/* main */
+.container-main{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+/* jumbo */
+#section-jumbo{
+    padding:20px top;
+    
+    /* debug */
+    background-color: #00018b;
+    border: 1px dashed black;
+}
+
+#jumbo{
+    width: 60%;
+
+    /* debug */
+    background-color: #ef82ed;
+    height: 250px;
+}
+
+.grey{
+    background-color: #d3d3d3;
+}
+
+.box {
+    width: 80%;
+
+    /* debug */
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.image-box{
+    width: 55%;
+
+    /* debug */
+    background-color: #1e90ff;
+}
+
+.text-box{
+    width: 25%;
+
+    /* debug */
+    background-color: #ffc0ca;
+}
+
+.full-box{
+
+    /* debug */
+    background-color: #218b21;
+    height: 500px;
+}
+
+footer{
+    background-color:#23272a;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.menù-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.website-link{
+    width: 30%;
+
+    /* debug */
+    background-color: #f08180;
+    border: 1px dashed black;
+    height: 300px;
+}
+
+.footer-nav{
+    flex-grow: 1;
+    
+    /* debug */
+    background-color: #20b3aa;
+    border: 1px dashed white;
+    height: 300px;
+}
+
+.end-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+
+    /* debug */
+    background-color: #7ffed4; 
+    height: 50px;  
+}
+
+.end-box div{
+    padding:3px;
+
+    /* debug */
+    background-color: #feb6c1;
+    font-size: 15px;
+    border: 1px dashed black;
+}
+    
