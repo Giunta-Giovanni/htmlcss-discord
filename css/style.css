@@ -31,7 +31,7 @@ button{
 .bg-grey{
     background-color: #f6f6f6;
 }
-.button {
+.button{
     font-size: 14px;
     padding:10px 12px ;
     border-radius: 20px;
@@ -41,7 +41,7 @@ button{
 .container-header{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 30px;
     padding-top: 20px;
     margin: 0 auto;
     width: 80%;
@@ -100,12 +100,12 @@ ul > li > a {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 50px 10px;
+    padding: 40px;
 }
 
 /* jumbo */
 #section-jumbo{
-    padding:20px top;
+    padding-top: 10px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     min-height: 500px;
@@ -129,13 +129,13 @@ ul > li > a {
     padding: 5px;
     line-height: 1.5;
     text-align: center;
-    margin: 0 10px;
+    margin: 10px;
     color: white;
 
 }
 
 #jumbo h1{
-    font-size: 40px;
+    font-size: 50px;
     margin: 20px;
   
 }
@@ -149,43 +149,57 @@ ul > li > a {
     padding-right: 8px;
 }
 
-.grey{
-    background-color: #d3d3d3;
-}
-
 .box {
     width: 80%;
+    text-align: center;
 
     /* debug */
-    height: 300px;
-    border: 1px dashed black;
+    /* height: 300px; */
+    /* border: 1px dashed black; */
 }
 
 .image-box{
     width: 55%;
 
     /* debug */
-    background-color: #1e90ff;
+    /* background-color: #1e90ff; */
 }
 
 .text-box{
     width: 25%;
+    text-align: start;
+    padding: 50px;
 
     /* debug */
-    background-color: #ffc0ca;
+    /* background-color: #ffc0ca; */
+}
+.titolo-post {
+    font-size: 35px;
+}
+.text-post{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .full-box{
+    text-align: center;
 
     /* debug */
-    background-color: #218b21;
-    height: 500px;
+    /* background-color: #218b21; */
+    /* height: 500px; */
 }
 
+.download-item{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* footer */
 footer{
     background-color:#23272a;
     margin: 0 auto;
-    padding: 10px;
+    padding: 40px;
 
 }
 
@@ -194,7 +208,7 @@ footer{
     justify-content: center;
     margin: 0 auto;
     width: 80%;
-    padding-bottom: 20px;
+    padding: 30px 0;
     border-bottom: 1px solid white;
 }
 .menù-footer{
