@@ -2,17 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* General */
 body{
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    
 }
 header{
     /* debug */
-    background-color: #add8e7; 
+    background-color: #3160e0; 
 }
+button{
+    all: unset;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-lightblue{
+    background-color: #8da1de;
+}
+
 
 /* header */
 .container-header{
@@ -24,17 +37,24 @@ header{
 }
 
 .item-header{
+    display: flex;
+    align-items: center;
     padding: 5px;
 
     /* debug */
-    background-color: #daa51c;
-    border: 1px dashed black;
-    height: 30px;
+    /* background-color: #daa51c; */
+    /* border: 1px dashed black; */
+    /* height: 30px; */
 }
 
 /* logo section*/
 #logo-section{
     width: 20%;
+    /* background-image:url(../img/logo.svg); */
+}
+
+#logo{
+size-adjust: ;
 }
 
 /* navigation section */
@@ -46,11 +66,14 @@ header{
 
 ul li{
     list-style: none;
+
 }
 
 ul > li > a {
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    padding: 0 20px;
+    font-weight: 400;
 }
 
 /* login section */
@@ -59,6 +82,13 @@ ul > li > a {
     justify-content: flex-end;
     width: 20%;
 }
+
+.button {
+    font-size: 14px;
+    padding:10px 12px ;
+    border-radius: 20px;
+}
+
 
 
 /* main */
@@ -72,10 +102,12 @@ ul > li > a {
 /* jumbo */
 #section-jumbo{
     padding:20px top;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
     
     /* debug */
-    background-color: #00018b;
-    border: 1px dashed black;
+    /* background-color: #00018b;
+    border: 1px dashed black; */
 }
 
 #jumbo{
